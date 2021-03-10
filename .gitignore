@@ -1,0 +1,14 @@
+mysql/
+
+api/vendor/
+api/.env
+api/composer.lock
+api/html
+.idea
+
+nginx/logs/
+nginx/sites/*
+
+!nginx/sites/default.conf
+!nginx/sites/api.dev.conf
+
